@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: gainsboro;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+header {
+    background-color: gainsboro;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-top {
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-cart-account {
+    margin-left: auto;
+}
+
+.search input[type="text"] {
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.search i {
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+}
+
+.search i:hover {
+    color: blue;
+}
+
+.account, .community, .cart {
+    margin-left: 10px;
+}
+
+.account a, .community a, .cart a {
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.main-nav {
+    background-color:ghostwhite;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    color: gainsboro;
+}
+
+.main-nav ul li {
+    margin-right: 15px;
+}
+
+.main-nav ul li a {
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+}
+
+.main-nav ul li a:hover {
+    color: blue;
+}
+
+
+.promo-banner {
+    margin-bottom: 30px;
+}
+
+.promo-details {
+    margin-top: 20px;
+}
+
+.promo-item p {
+    margin-bottom: 10px;
+}
+
+
+.categories {
+    margin-bottom: 30px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.category p {
+    margin-top: 10px;
+}
+
+
+.new-products {
+    padding: 30px 0;
+}
+
+.new-products h2 {
+    margin-bottom: 30px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-item .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.product-item .price a {
+    color: blue;
+    text-decoration: none;
+}
+
+.product-item .price a:hover {
+    text-decoration: underline;
+}
+
+
+.glide__bullets {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.glide__bullet {
+    border: none;
+    background-color: ghostwhite;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.glide__bullet.active {
+    background-color: blue;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    max-height: 400px;
+}
+.promo-image {
+    width: 600px;
+    height: 400px;
+}

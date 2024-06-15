@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painful Pleasures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.theme.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top d-flex justify-content-between align-items-center p-3">
+        
+            <nav>
+                <ul class="d-flex list-unstyled mb-0">
+                    <li><a href="#">Wholesale - Pros Only</a></li>
+                    
+                    <li><a href="#">Retail</a></li>
+                </ul>
+            </nav>
+            <div class="search-cart-account d-flex align-items-center">
+                <div class="search mr-3">
+                    <input type="text" placeholder="Search by name, category...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="account mr-3">
+                    <i class="fas fa-user"></i>
+                    <a href="#">Account</a>
+                </div>
+                <div class="community mr-3">
+                    <i class="fas fa-users"></i>
+                    <a href="#">Community</a>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#">Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <ul class="d-flex justify-content-around list-unstyled mb-0 p-2 bg-dark text-white">
+                <li><a href="#">Painful Pleasures</a></li>
+                <li><a href="#">BODY JEWELRY</a></li>
+                <li><a href="#">PIERCING</a></li>
+                <li><a href="#">TATTOO</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">STUDIO</a></li>
+                <li><a href="#">PERMANENT MAKEUP</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="promo-banner d-flex justify-content-around align-items-center p-5 bg-light">
+        <div class="promo-banner d-flex justify-content-around align-items-center p-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="promo-item text-center">
+                            <img src="gettyimages-451968293-612x612.jpg" alt="4th of July Savings" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="promo-item text-center">
+                            <div class="promo-details">
+                                <h1>4th of July Savings Are Here!</h1>
+                                <p>Save 15% sitewide for orders over $200</p>
+                                <p>Code: JULY4</p>
+                                <a href="shopping.html" class="btn btn-primary btn-lg">Shop Now</a>
+                                <p>Valid 7/3-7/6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promo-extra d-flex flex-column">
+            <div class="promo-item text-center mb-3">
+                <img src="20240615_210847.jpg" alt="Wireless Efficiency" class="img-fluid">
+                <p>Wireless efficiency</p>
+                <p>Button-press voltage adjustment</p>
+                <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+            </div>
+            <div class="promo-item text-center">
+                <img src="personal protective equipment.jpg" alt="Personal Protective Equipment" class="img-fluid">
+                <p>Personal Protective Equipment (PPE)</p>
+                <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="categories d-flex justify-content-around flex-wrap p-5 bg-light">
+        <div class="category text-center">
+            <img src="Tatto supplies.jpg" alt="Tattoo Supplies" class="img-fluid">
+            <p>Tattoo Supplies</p>
+            <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+        </div>
+        <div class="category text-center">
+            <img src="body jewelry.jpg" alt="Body Jewelry" class="img-fluid">
+            <p>Body Jewelry</p>
+            <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+        </div>
+        <div class="category text-center">
+            <img src="piercing supplies.jpg" alt="Piercing Supplies" class="img-fluid">
+            <p>Piercing Supplies</p>
+            <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+        </div>
+        <div class="category text-center">
+            <img src="medical suplies.jpg" alt="Medical Supplies" class="img-fluid">
+            <p>Medical Supplies</p>
+            <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+        </div>
+        <div class="category text-center">
+            <img src="permanent makeup.jpg" alt="Permanent Makeup" class="img-fluid">
+            <p>Permanent Makeup</p>
+            <button class="btn btn-primary"><a href="shopping.html" class="text-white">Shop Now</a></button>
+        </div>
+    </section>
+    <section class="new-products p-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">New Products</h2>
+            <div class="glide" id="newProducts">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <!-- Produktet e reja -->
+                        <li class="glide__slide">
+                            <div class="product-item">
+                                <img src="rook quality tatto machine.jpg" alt="Rook Quality Tattoo Machine" class="img-fluid">
+                                <h3>Rook Quality Rotary Tattoo Machine - Copper</h3>
+                                <p class="price"><a href="shopping.html">$449.99</a></p>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-item">
+                                <img src="rook quality tatto machine blue.jpg" alt="Rook Quality Tattoo Machine Blue" class="img-fluid">
+                                <h3>Rook Quality Rotary Tattoo Machine - Blue</h3>
+                                <p class="price"><a href="shopping.html">$449.99</a></p>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-item">
+                                <img src="pro-inkjecta.jpg" alt="Pro Inkjecta" class="img-fluid">
+                                <h3>Pre-order - Inkjecta Flite XI Wireless Tattoo Machine</h3>
+                                <p class="price"><a href="shopping.html">$1,199.99</a></p>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-item">
+                                <img src="pro-inkjecta X1.jpg" alt="Pro Inkjecta X1" class="img-fluid">
+                                <h3>Pre-order - Inkjecta Flite XI Wireless Tattoo Machine</h3>
+                                <p class="price"><a href="shopping.html">$1,199.99</a></p>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-item">
+                                <img src="pro-inkjecta X1.jpg" alt="Pro Inkjecta X2" class="img-fluid">
+                                <h3>Pre-order - Inkjecta Flite XI Wireless Tattoo Machine</h3>
+                                <p class="price"><a href="shopping.html">$1,199.99</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Kontrolli i pikeve -->
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <!-- Pikat rrethore -->
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Include JavaScript for Glide.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <!-- Script for initializing Glide.js -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Glide('#newProducts', {
+                type: 'carousel',
+                perView: 3,  // Number of images displayed at one time
+                gap: 20,     // Gap between slides
+                breakpoints: {
+                    800: {
+                        perView: 2
+                    },
+                    480: {
+                        perView: 1
+                    }
+                }
+            }).mount();
+        });
+    </script>
+</body>
+</html>
